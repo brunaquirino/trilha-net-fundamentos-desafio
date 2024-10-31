@@ -1,4 +1,6 @@
 # DIO - Trilha .NET - Fundamentos
+*Desafio proposto pela DIO. Projeto concluído e mudanças implementadas em 31/10/2024.*
+
 www.dio.me
 
 ## Desafio de projeto
