@@ -1,5 +1,5 @@
 # DIO - Trilha .NET - Fundamentos
-*Desafio proposto pela DIO. Projeto concluído e mudanças implementadas em 31/10/2024.*
+*Este repositório contém a solução para um desafio proposto pela DIO. O projeto já possuía uma base pré-configurada, e incluí linhas de código para completar a lógica e fazer o programa funcionar plenamente. Durante o desenvolvimento, pratiquei conceitos fundamentais do .NET e da linguagem C#.*
 
 www.dio.me
 
