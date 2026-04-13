@@ -1,40 +1,74 @@
-# DIO - Trilha .NET - Fundamentos
-*Este repositório contém a solução para um desafio proposto pela DIO. O projeto já possuía uma base pré-configurada, e incluí linhas de código para completar a lógica e fazer o programa funcionar plenamente. Durante o desenvolvimento, pratiquei conceitos fundamentais do .NET e da linguagem C#.*
+# 🚗 Sistema de Estacionamento em C#
 
-www.dio.me
+Este projeto foi desenvolvido como parte da trilha de Fundamentos .NET da DIO, com o objetivo de praticar lógica de programação e conceitos básicos de C#.
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+A aplicação simula um sistema simples de gerenciamento de estacionamento via console.
 
-## Contexto
-Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
+--------------
 
-## Proposta
-Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
-![Diagrama de classe estacionamento](diagrama_classe_estacionamento.png)
+# 🚀 Funcionalidades
 
-A classe contém três variáveis, sendo:
+O sistema permite:
+	-	Cadastrar veículos (placa)
+	-	Remover veículos e calcular valor da estadia
+	-	Listar veículos estacionados
+	-	Menu interativo no terminal
 
-**precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+⸻
 
-**precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
+# 🧠 Lógica implementada
 
-**veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+Durante o desenvolvimento, foram aplicados conceitos como:
+	-	Estruturas de dados (`List<string>`)
+	-	Programação orientada a objetos (classe `Estacionamento`)
+	-	Entrada e saída de dados no console
+	-	Estruturas de controle (condições e loops)
+	-	Cálculo baseado em tempo de permanência
 
-A classe contém três métodos, sendo:
+⸻
 
-**AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
+💰 Regra de negócio
 
-**RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
+O valor cobrado é calculado com base em:
+	-	Preço inicial fixo
+	-	Preço por hora
+	-	Tempo de permanência do veículo
 
-**ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
+⸻
 
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
-1. Cadastrar veículo
-2. Remover veículo
-3. Listar veículos
-4. Encerrar
+🖥️ Exemplo de execução
+
+(Adicione aqui prints do terminal mostrando o sistema em funcionamento)
+
+**Exemplo**:
+`Digite a placa do veículo: ABC-1234
+Veículo cadastrado com sucesso!`
+
+`Digite a quantidade de horas: 2
+Valor total: R$ 10,00`
 
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+⸻
+
+🛠️ Tecnologias utilizadas
+	•	C#
+	•	.NET
+	•	Git e GitHub
+
+⸻
+
+💡 Aprendizados
+
+Este projeto foi importante para consolidar conceitos fundamentais de C#, especialmente na criação de classes, manipulação de listas e construção de aplicações interativas no console.
+
+Também ajudou a reforçar a lógica de resolução de problemas e organização de código.
+
+⸻
+
+📌 Observação
+
+O projeto foi baseado em um desafio proposto pela DIO, onde parte da estrutura inicial já estava disponível e foi complementada com a implementação da lógica necessária.
+:::
+
+
+Exemplo:
