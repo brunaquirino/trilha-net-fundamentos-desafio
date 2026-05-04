@@ -27,7 +27,7 @@ Durante o desenvolvimento, foram aplicados conceitos como:
 
 ⸻
 
-💰 Regra de negócio
+#### Regra de negócio
 
 O valor cobrado é calculado com base em:
 	-	Preço inicial fixo
