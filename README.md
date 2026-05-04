@@ -1,4 +1,4 @@
-# 🚗 Sistema de Estacionamento em C#
+# Sistema de Estacionamento em C#
 
 Este projeto foi desenvolvido como parte da trilha de Fundamentos .NET da DIO, com o objetivo de praticar lógica de programação e conceitos básicos de C#.
 
@@ -6,7 +6,7 @@ A aplicação simula um sistema simples de gerenciamento de estacionamento via c
 
 --------------
 
-# 🚀 Funcionalidades
+# Funcionalidades
 
 O sistema permite:
 	-	Cadastrar veículos (placa)
@@ -16,7 +16,7 @@ O sistema permite:
 
 ⸻
 
-# 🧠 Lógica implementada
+# Lógica implementada
 
 Durante o desenvolvimento, foram aplicados conceitos como:
 	-	Estruturas de dados (`List<string>`)
@@ -36,7 +36,7 @@ O valor cobrado é calculado com base em:
 
 ⸻
 
-🖥️ Exemplo de execução
+#### Exemplo de execução
 
 (Adicione aqui prints do terminal mostrando o sistema em funcionamento)
 
@@ -50,14 +50,14 @@ Valor total: R$ 10,00`
 
 ⸻
 
-🛠️ Tecnologias utilizadas
+#### Tecnologias utilizadas
 	•	C#
 	•	.NET
 	•	Git e GitHub
 
 ⸻
 
-💡 Aprendizados
+#### Aprendizados
 
 Este projeto foi importante para consolidar conceitos fundamentais de C#, especialmente na criação de classes, manipulação de listas e construção de aplicações interativas no console.
 
@@ -65,10 +65,14 @@ Também ajudou a reforçar a lógica de resolução de problemas e organização
 
 ⸻
 
-📌 Observação
+#### Observação
 
 O projeto foi baseado em um desafio proposto pela DIO, onde parte da estrutura inicial já estava disponível e foi complementada com a implementação da lógica necessária.
 :::
 
-
 Exemplo:
+[!Diagrama do projeto](assets/diagrama_classe_estacionamento.png)
+[!Projeto em execução](assets/screenshot1.png)
+[!Projeto em execução](assets/screenshot2.png)
+[!Projeto em execução](assets/screenshot3.png)
+[!Projeto em execução](assets/screenshot4.png)
