@@ -71,8 +71,13 @@ O projeto foi baseado em um desafio proposto pela DIO, onde parte da estrutura i
 :::
 
 Exemplo:
+
 ![Diagrama do projeto](assets/diagrama_classe_estacionamento.png)
+
 ![Projeto em execução](assets/screenshot1.png)
+
 ![Projeto em execução](assets/screenshot2.png)
+
 ![Projeto em execução](assets/screenshot3.png)
+
 ![Projeto em execução](assets/screenshot4.png)
